@@ -23,7 +23,7 @@ const MapScreen = () => {
                 }}
             />
             <Stack.Screen
-                name="RideOptionsCArd"
+                name="RideOptionsCard"
                 component={RideOptionsCard}
                 options={{
                     headerShown: false,
@@ -37,4 +37,4 @@ const MapScreen = () => {
 
 export default MapScreen
 
-const styles = StyleSheet.create({})
+// const styles = StyleSheet.create({})

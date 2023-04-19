@@ -4,7 +4,7 @@ import tw from "twrnc";
 import { Icon } from "react-native-elements";
 import { useNavigation } from "@react-navigation/native";
 import { useSelector } from "react-redux";
-import { selectOrigin } from "../slices/navSlice";
+import { selectOrigin } from "../redux/slices/navSlice";
 
 const data = [
   {
